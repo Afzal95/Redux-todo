@@ -21,7 +21,7 @@ function App() {
         <h2>Todo App using Redux</h2>
         <form onSubmit={handleSubmit}>
         <input placeholder='enter todo'
-        style={{width:"400px",fontSize:"20px",padding:"10px 4px",borderRadius:"20px",border:"none",outline:"none"}}
+        style={{width:"400px",fontSize:"20px",padding:"14px 6px",borderRadius:"20px",border:"none",outline:"none"}}
         onChange={(e)=>setTodo(e.target.value)}
         />
         <button type='submit' style={{padding:"14px",marginLeft:"20px",fontSize:"20px",borderRadius:"50%",border:"none"}}>Add</button>
